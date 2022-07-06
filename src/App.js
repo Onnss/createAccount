@@ -82,7 +82,29 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="my-3">
+        <input type="checkbox" id="terms" required />
+        <span> </span>
+        <label for="terms" className="text-secondary ">
+        I agree to <u>Terms and Conditions</u>
+        </label>
+      </div>
 
+      <div className="text-center">
+        <input
+          className="btn btn-success btn-lg mt-2 w-50 "
+          type="button"
+          value="Register"
+        />
+      </div>
+
+      <a href="#terms" className="text-center mt-1">
+        Already have an account ?
+      </a>
+    </div>
+
+  );
+}
 
 
 export default App;
